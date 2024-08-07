@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/lib.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <title>Encriptador</title>
+</head>
+<body>
+<main>
+    <header>
+        <img class="logo" src="img/logo.svg" alt="Logo">
+        <p class="p14">Challenge Encriptador Alura <i class="fa-regular fa-face-laugh-beam"></i></p>
+    </header>
+    <div class="container">
+        <div class="izq">            
+            <div>
+                <textarea onkeydown="textArea()" class="textarea-in" id="textIn" placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+            <div>
+                <div><p id="text-warning" class="text-warning p14">&nbsp;</p></div>
+                <div class="botones">
+                    <button onclick="btnEncriptar()" class="btn1">Encriptar</button>
+                    <button onclick="btnDesencriptar()" class="btn2">Desencriptar</button>
+                    <button onclick="btnLimpiar()" class="btn4 tooltip"><i class="fa-solid fa-arrows-rotate"></i><span class="tooltiptext">Reiniciar</span></button>
+                </div>
+            </div>
+
+        </div>
+        <div id="der" class="der">
+            <div class="img-salida"></div>
+            <div class="text-mensaje">
+                <p class="p20">Ningún mensaje fue encontrado</p>
+                <p class="p14">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </div>
+        <div id="der2" class="der hidden">
+            <div class="text-mensaje">
+                <p class="p20">Resultado</p>
+                <textarea id="textOut" class="p14 textarea-out"></textarea>
+            </div>
+            <button onclick="btnCopiar()" class="btn3">Copiar & Limpiar</button>
+        </div>
+    </div>
+    <footer>
+        <p class="p14">fernmarr | 2024</p>
+    </footer>
+</main>
+
+</body>
+</html>
