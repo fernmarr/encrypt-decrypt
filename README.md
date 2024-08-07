@@ -1,11 +1,12 @@
 # Encrypt Decrypt
 
 ## Descripción
-Este proyecto proporciona una interfaz simple para encriptar y desencriptar mensajes utilizando técnicas básicas de cifrado. Es ideal para aprender los fundamentos de la criptografía y cómo implementar algoritmos de cifrado en aplicaciones web.
+Este proyecto proporciona una interfaz simple para encriptar y desencriptar textos utilizando técnicas básicas de cifrado. 
+Es ideal para aprender los fundamentos de HTML5, Flexbox, CSS y Javascript. Tambien cómo implementar librerías de cifrado en aplicaciones web.
 
 ## Características
-- Encriptación de mensajes utilizando un algoritmo de sustitución simple.
-- Desencriptación de mensajes cifrados.
+- Encriptación de textos utilizando un algoritmo de sustitución simple.
+- Desencriptación de textos cifrados.
 - Interfaz de usuario amigable para ingresar y visualizar mensajes.
 
 ## Tecnologías Utilizadas
