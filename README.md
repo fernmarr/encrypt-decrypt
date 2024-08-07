@@ -26,10 +26,14 @@ Es ideal para aprender los fundamentos de HTML5, Flexbox, CSS y Javascript. Tamb
 3. Abre index.html en tu navegador web.
 
 ## Estructura del Proyecto
-- `index.html`: Archivo principal HTML.
+- `index.html`: Archivo principal HTML, importa librería crypto.js para encriptado/desencriptado.
+
+   ```sh
+   https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js
+
 - `css/`: Carpeta que contiene los archivos de estilo CSS.
-- `js/`: Carpeta que contiene el archivo JavaScript con la lógica de encriptación y desencriptación.
-- `img/`: Carpeta para imágenes usadas en el proyecto (si aplica).
+- `js/`: Carpeta que contiene el archivo JavaScript con la lógica de los botones y comportamiento de mensajes.
+- `img/`: Carpeta para imágenes usadas en el proyecto.
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue estos pasos:
